@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>민박집 인기투표</title>
+    <meta charset="utf-8">
+    <style>
+     body{
+  background-color: MistyRose;
+  margin:0;
+}
+#article{
+
+}
+h2 {
+
+}
+a {
+  color:hotpink;
+}
+h1 {
+  font-size:45px;
+  text-align: center;
+  border-bottom:3px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  color: red;
+  border-right:3px solid gray;
+  width:250px;
+  margin:0;
+  padding:20px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 320px 1fr;
+}
+#grid ol{
+  padding-left:33px;
+}
+#grid #article{
+  padding-left:25px;
+}
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right:none;
+  }
+  h1 {
+    border-bottom:none;
+    }
+}
+
+    </style>
+      </head>
+  <body>
+  <h1><a href="home.html"> 루카스와 레이첼의 민박집</a></h1>
+    <div id="grid">
+      <ol>
+        <li id="menu"><a href="introduction.html">민박집 소개</a></li>
+        <li><a href="owner.html">주인장 소개</a></li>
+        <li id="menu"><a href="customer.html">민박 친구들 소개</a></li>
+        <li id="menu"><a href="comment.html">방명록 쓸래?</a></li>
+        <li id="menu"><a href="populartest.html">민박집 인기투표!!</a></li>
+      </ol>
+
+  <div id="article">
+    <h2><font color="red">잊을라하면 돌아오는 민박집 인기투표!!!</font></h2>
+      <p><strong>자기가 좋아하는 민박인 사진 아래 버튼을 눌러 투표해주세요!!!</strong><br><br>
+        <img src="rachel.png" width="50%"><br><br><input type="button" name="rachel" value="여 주인장" onclick="alert('현재 1위!!! 왠일?')"><br><br>
+        <img src="lucas.jpg" width="50%"><br><br><input type="button" name="lucas" value="남 주인장" onclick="alert('현재 7위 꼴등 분발하시오')"><br><br>
+        <img src="sungjae.png" width="50%"><br><br><input type="button" name="sungjae" value="김성재" onclick="alert('현재 공동 2위')"><br><br>
+        <img src="damian.png" width="50%"><br><br><input type="button" name="damian" value="떼미안" onclick="alert('현재 4위')"><br><br>
+        <img src="minwook.png" width="50%"><br><br><input type="button" name="minwook" value="김민욱" onclick="alert('현재 공동 2위')"><br><br>
+        <img src="minjoo.png" width="50%"><br><br><input type="button" name="minjoo" value="김민주" onclick="alert('현재 5위')"><br><br>
+        <img src="simon.png" width="50%"><br><br><input type="button" name="simon" value="이성빈" onclick="alert('현재 6위')"><br><br>
+        <img src="sangwon.png" width="50%"><br><br><input type="button" name="sangwon" value="이상원" onclick="alert('넌 제외 ㅋㅋㅋ')"><br><br>
+      </p>
+    </div>
+  </div>
+  </body>
+</html>
