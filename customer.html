@@ -5,7 +5,7 @@
     <meta charset="utf-8">
    <style>
       body{
-        background-color: honeydew;
+        background-color: ;
   margin:0;
 }
 #article{
@@ -15,7 +15,7 @@ h2 {
 
 }
 a {
-  color:black;
+  color:;
 }
 h1 {
   font-size:45px;
@@ -29,7 +29,6 @@ ol{
   width:250px;
   margin:0;
   padding:20px;
-  color: blue;
 }
 #grid{
   display: grid;
@@ -66,7 +65,19 @@ ol{
         <li><a href="populartest.html">민박집 인기투표!!</a></li>
       </ol>
 <div>
-    <h2>민박집 친구들 소개하는 시간!</h2>
+    <h2>민박집 친구들 소개하는 시간!</h2><br>
+    <input type="button" name="Day" value="Day" onclick="
+    document.querySelector('body').style.backgroundColor='honeydew';
+    document.querySelector('body').style.color='black';
+    document.querySelector('a').style.color='black';
+    ">
+    <input type="button" name="Night" value="Night" onclick="
+    document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';
+    document.querySelector('a').style.color='white';
+    ">
+    <br><br><br>
+
         <table border="1">
           <tr style="background-color:lightblue;">
             <th>이름</th><th>성별  </th><th>나이  </th><th>직업  </th><th>민박기수</th><th>특이사항</th>
