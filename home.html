@@ -4,6 +4,55 @@
     <title>루카스와 레이첼의 민박집</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <style>
+     body{
+  margin:0;
+}
+#article{
+
+}
+h2 {
+
+}
+a {
+  color:black;
+}
+h1 {
+  font-size:45px;
+  text-align: center;
+  border-bottom:3px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right:3px solid gray;
+  width:250px;
+  margin:0;
+  padding:20px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 320px 1fr;
+}
+#grid ol{
+  padding-left:33px;
+}
+#grid #article{
+  padding-left:25px;
+}
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right:none;
+  }
+  h1 {
+    border-bottom:none;
+  }
+}
+
+    </style>
       </head>
   <body>
     <h1><a href="home.html"> 루카스와 레이첼의 민박집</a></h1>
